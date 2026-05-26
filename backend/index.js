@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'http://localhost:5173',
+    origin:'https://full-stack-job-portal-okix-pzbgpe7sg-musaibs-projects-5e2f747b.vercel.app',
     credentials:true
 }
 
